@@ -1,0 +1,11 @@
+1.Importance of Name node in Hadoop cluster :
+HDFS has a master/slave architecture.
+An HDFS cluster consists of a single NameNode, a master that manages the file system namespace and regulates access to files by clients.
+NameNode is single point of failure in hadoop cluster.
+NameNode is so critical to HDFS and when the NameNode is down, HDFS is inaccessible and considered down.
+NameNode only stores the metadata of HDFS, the directory tree of all files in the file system, and tracks the files across the cluster.
+
+
+
+2.
+The Screenshots for the beginners HDFS commands are attached.
